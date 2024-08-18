@@ -1,0 +1,24 @@
+
+
+.card-container {
+  margin-bottom: 3rem; 
+}
+
+.service-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem; 
+}
+
+.service-card img {
+  height: 450px;
+  object-fit: cover;
+}
+
+.service-card .card-body {
+  padding: 1.5rem;
+}
+
+
+
+

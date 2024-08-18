@@ -1,0 +1,131 @@
+
+.homepage-background {
+  background-color: #f3f3f3; 
+  padding-bottom: 2rem;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.hero-section {
+  color: #000; 
+  padding: 5rem 0;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.carousel-container .carousel-caption {
+  background: rgba(0, 0, 0, 0.7); 
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.accordion-custom .accordion-item {
+  margin-bottom: 1.5rem;
+  border: none; 
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-custom .accordion-header {
+  color: #ffffff; 
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none; 
+  border-radius: 8px; 
+}
+
+.accordion-custom .accordion-header:hover {
+  background-color: #333333;  
+}
+
+.accordion-custom .accordion-body {
+  background-color: #ffffff; 
+  padding: 1.5rem;
+}
+
+.custom-card {
+  margin: 1rem;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card .card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.custom-card .card-body {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.testimonials-section {
+  background-color: #f8f9fa;
+  padding: 3rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-section h2 {
+  margin-bottom: 2rem;
+}
+
+.testimonials-section .custom-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-section .blockquote-footer {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.newsletter-section {
+  background-color: #f8f9fa;
+  padding: 3rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-section h2 {
+  margin-bottom: 1rem;
+}
+
+.newsletter-section p {
+  margin-bottom: 2rem;
+}
+
+.newsletter-section .form-control {
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid #ced4da;
+}
+
+.newsletter-section .btn-dark {
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+/* Carousel container */
+.carousel-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+

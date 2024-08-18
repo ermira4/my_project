@@ -1,0 +1,118 @@
+
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$card-bg: #f8f9fa;
+$card-border-color: #e9ecef;
+$heading-color: #343a40;
+$text-color: #495057;
+$button-color: #28a745;
+$button-hover-color: darken($button-color, 10%);
+$video-border-color: #dee2e6;
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+
+.about-us {
+  padding-bottom: 2rem;
+  min-height: 100vh;
+}
+
+
+.about-us h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: $heading-color;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 2rem;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid $video-border-color;
+    border-radius: 8px;
+  }
+}
+
+
+.card {
+  background-color: $card-bg;
+  border: 1px solid $card-border-color;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 250px;
+    border-bottom: 1px solid $card-border-color;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+    
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: $heading-color;
+    }
+    
+    .card-subtitle {
+      font-size: 1rem;
+      color: $secondary-color;
+    }
+    
+    .card-text {
+      color: $text-color;
+      margin-bottom: 1rem;
+    }
+    
+    .btn {
+      background-color: $button-color;
+      border-color: $button-color;
+      
+      &:hover {
+        background-color: $button-hover-color;
+        border-color: $button-hover-color;
+      }
+    }
+  }
+}
+
+
+.text-center {
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+  }
+}
+
+
+  
+  
+  

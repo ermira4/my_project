@@ -1,10 +1,8 @@
-
-
 import React from 'react';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import ReCAPTCHA from 'react-google-recaptcha';
-import  './ContactUs.css';
+import './ContactUs.css';
 
 const ContactUsSchema = Yup.object().shape({
   firstname: Yup.string().required('First name is required'),
@@ -17,14 +15,14 @@ const ContactUsSchema = Yup.object().shape({
 
 const ContactUs = () => {
   const handleSubmit = (values, { resetForm }) => {
-    
+
     console.log(values);
     resetForm();
   };
 
   return (
     <div className="contactUsContainer">
-    
+
       <main>
         <h1 className="contactUsTitle">Contact Us</h1>
         <Formik
@@ -73,7 +71,7 @@ const ContactUs = () => {
 
               <div className="contactUsFieldGroup">
                 <ReCAPTCHA
-                  sitekey="YOUR_RECAPTCHA_SITE_KEY"
+                  sitekey="6LdacykqAAAAAK5HJlyTBbk6MlrX1iA0SGIEzlG6"
                   onChange={(value) => setFieldValue('recaptcha', value)}
                 />
                 <ErrorMessage name="recaptcha" component="div" className="contactUsError" />

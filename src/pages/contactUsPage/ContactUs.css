@@ -1,73 +1,72 @@
 .contactUsContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .contactUsHeader {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  .contactUsTitle {
-    font-size: 2rem;
-    color: #333;
-  }
-  
-  .contactUsForm {
-    width: 100%;
-    background: #f9f9f9;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contactUsFieldGroup {
-    margin-bottom: 1.5rem;
-  }
-  
-  .contactUsLabel {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-    color: #555;
-  }
-  
-  .contactUsInput, .contactUsTextarea {
-    width: 100%;
-    padding: 0.75rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1rem;
-    box-sizing: border-box;
-  }
-  
-  .contactUsTextarea {
-    resize: vertical;
-    min-height: 150px;
-  }
-  
-  .contactUsError {
-    color: #e74c3c;
-    margin-top: 0.5rem;
-  }
-  
-  .contactUsButton {
-    background-color: #007bff;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contactUsButton:hover {
-    background-color: #0056b3;
-  }
-  
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contactUsHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contactUsTitle {
+  font-size: 2rem;
+  color: #333;
+}
+
+.contactUsForm {
+  width: 100%;
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contactUsFieldGroup {
+  margin-bottom: 1.5rem;
+}
+
+.contactUsLabel {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.contactUsInput,
+.contactUsTextarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.contactUsTextarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.contactUsError {
+  color: #e74c3c;
+  margin-top: 0.5rem;
+}
+
+.contactUsButton {
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactUsButton:hover {
+  background-color: #0056b3;
+}
